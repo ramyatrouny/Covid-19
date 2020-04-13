@@ -2,9 +2,9 @@ import React from 'react'
 import './AboutUs.scss'
 import coronaVirus from '../../images/coronaVirus.png'
 
-export default function AboutUs() {
+export default function AboutUs(props) {
     return (
-        <section className="coronaVirusDefinition">
+        <section className="coronaVirusDefinition" ref={props.setRef}>
             <div className="illustration">
                 <img src={coronaVirus} alt="" srcset="" />
             </div>

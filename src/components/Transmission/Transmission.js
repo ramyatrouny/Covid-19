@@ -4,10 +4,14 @@ import './Transmission.scss';
 import airTransmission from '../../images/Transmission/airTransmission.png';
 import humanContact from '../../images/Transmission/humanContact.png';
 import containedObjects from '../../images/Transmission/containedObjects.png';
+import { useRef } from 'react';
 
-export default function Transmission() {
+
+
+export default function Transmission(props) {
+
     return (
-        <section className="transmission-container">
+        <section className="transmission-container" ref={props.setRef}>
             <h2>COVID-19</h2>
             <h3>Transmission</h3>
             <p>Coronavirus is spread through droplets released into the air when an infected person coughs or sneezes.</p>

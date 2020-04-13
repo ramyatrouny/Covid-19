@@ -3,9 +3,9 @@ import './Overview.scss'
 
 import GirlSitting from '../../images/sittingGirl.png'
 
-export default function Overview() {
+export default function Overview(props) {
     return (
-        <section className="overview-container">
+        <section className="overview-container" ref={props.setRef}>
             <div className="definition">
                 <h2>COVID-19 Alert</h2>
                 <h1>Quarantine at home <br/> to stop Corona virus</h1>
