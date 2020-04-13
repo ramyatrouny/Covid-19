@@ -14,6 +14,12 @@ npm install
 
 npm run start 
 
+## TODO
+* Contagion Section
+* Symptoms
+* What to do 
+* Live Reports
+* Auto scroll
 
 ## License
 MIT License
