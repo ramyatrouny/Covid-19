@@ -21,7 +21,7 @@ export default function Transmission() {
                 <div className="transmissionCard">
                     <img src={humanContact} alt="" srcset="" />
                     <h3>Human Contact</h3>
-                    <p>Washing your hands is one of thesimplest ways you can protect</p>
+                    <p>Washing your hands is one of the simplest ways you can protect yourself</p>
                 </div>
                 <div className="transmissionCard">
                     <img src={containedObjects} alt="" srcset="" />
