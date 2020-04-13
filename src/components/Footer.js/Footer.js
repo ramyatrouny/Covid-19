@@ -22,7 +22,7 @@ export default function Footer() {
                     <p>Treatment</p>
                 </li>
                 <li>
-                    Developed by: <a href="https://twitter.com/Ramyatrouny" target="_blank">@ramyatrouny</a>
+                    Developed by: <a href="https://twitter.com/Ramyatrouny" rel="noopener noreferrer" target="_blank">@ramyatrouny</a>
                 </li>
             </ul>
         </footer>
