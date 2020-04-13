@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+    margin-bottom: 50px;
+}
+
+nav ul { 
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 30px;
+    color: var(--green);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav ul li:hover { 
+    color: #FB4C47;
+}
+
+nav ul li input[type="button"] {
+    border: 2px solid #FB4C47;
+    font-size: 18px;
+    border-radius: 46px;
+    background: transparent;
+    color: #FB4C47;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+nav ul li input[type="button"]:hover { 
+    background: #FB4C47;
+    color: white;
+}

@@ -1,0 +1,32 @@
+:root {
+    --green: #035755;
+    --darkRed: #FF383D;
+    --lighPink: #FFF8F8;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('../src/fonts/Gelion/Gelion-Medium.ttf');
+}
+
+@font-face { 
+    font-family: 'Gelion-light';
+    src: url('../src/fonts/Gelion/Gelion-Light.ttf')
+}
+
+* {
+  font-family: 'Gelion'
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    
+}
+
+.App {
+    background: var(--lighPink);
+}

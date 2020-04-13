@@ -1,0 +1,45 @@
+.coronaVirusDefinition {
+    padding-left: 160px;
+    display: flex;
+    place-items: center;
+
+    .illustration {
+        img {
+            width: 700px;
+        }
+    }
+
+    .definition {
+        padding-left: 250px;
+        padding-right: 120px;
+        text-align: justify;
+
+        h2 {
+            font-family: 'Red Hat Display', sans-serif;
+            color: var(--darkRed);
+            font-size: 29px;
+
+        }
+
+        h3 {
+            font-family: 'Red Hat Display', sans-serif;
+            color: var(--green);
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #4B4F51;
+        }
+
+        input[type="button"] {
+            color: var(--darkRed);
+            background: rgba(250, 86, 82, 0.15);
+            border-radius: 65px;
+            font-size: 20px;
+            border: none;
+            padding: 15px;
+            outline: none;
+        }
+    }
+}
