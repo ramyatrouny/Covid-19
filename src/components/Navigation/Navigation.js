@@ -14,7 +14,7 @@ export default function Navigation() {
                 </li>
 
                 <li>
-                    <p>Contagion</p>
+                    <p>Transmission</p>
                 </li>
 
                 <li>

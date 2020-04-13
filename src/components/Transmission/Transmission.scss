@@ -1,0 +1,62 @@
+.transmission-container {
+
+    h2,
+    h3,
+    p {
+        text-align: center;
+    }
+
+    h3,
+    h3 {
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    h2 {
+        font-size: 29px;
+        color: var(--darkRed);
+    }
+
+    h3 {
+        font-size: 50px;
+        color: var(--green)
+    }
+
+    p {
+        font-size: 18px;
+        color: #4B4F51;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .coronaTransmissionCards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .transmissionCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        padding: 35px;
+
+        img {
+            width: 250px;
+            height: 230px;
+        }
+
+        h3 {
+            font-size: 36px;
+            color: var(--green);
+        }
+
+        p {
+            max-width: 300px;
+            font-size: 18px;
+        }
+    }
+
+}

@@ -4,6 +4,7 @@ import './App.scss';
 import Navigation from './components/Navigation/Navigation';
 import Overview from './components/Overview/Overview';
 import AboutUs from './components/AboutUs/AboutUs';
+import Transmission from './components/Transmission/Transmission';
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<Navigation />
 			<Overview />
 			<AboutUs />
+			<Transmission />
 		</div>
 	);
 }
