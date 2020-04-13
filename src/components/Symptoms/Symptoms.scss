@@ -1,0 +1,28 @@
+.symptoms-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+        font-size: 29px;
+        color: var(--darkRed);
+    }
+
+    h3 {
+        font-size: 50px;
+        color: var(--green);
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #4B4F51;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    img {
+        object-fit: contain;
+    }
+}

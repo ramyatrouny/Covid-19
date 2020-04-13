@@ -1,35 +1,30 @@
 import React from 'react'
-import './Navigation.scss'
-// Images
+import './Footer.scss'
+
 import Logo from '../../images/Logo.png'
 
-export default function Navigation() {
+export default function Footer() {
     return (
-        <nav>
-            <img src={Logo} alt=""/>
+        <footer>
+            <img src={Logo} alt="" srcset="" />
 
             <ul>
                 <li>
                     <p>Overview</p>
                 </li>
-
-                <li>
-                    <p>Transmission</p>
-                </li>
-
                 <li>
                     <p>Symptoms</p>
                 </li>
-
                 <li>
                     <p>Prevention</p>
                 </li>
-
                 <li>
-                    <input type="button" value="Contact" />
+                    <p>Treatment</p>
                 </li>
-
+                <li>
+                    Developed by: <a href="https://twitter.com/Ramyatrouny" target="_blank">@ramyatrouny</a>
+                </li>
             </ul>
-        </nav>
+        </footer>
     )
 }

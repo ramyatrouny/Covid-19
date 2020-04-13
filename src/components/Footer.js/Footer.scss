@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+    margin-top: 80px;
+    padding-bottom: 20px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+
+        li {
+            padding: 0 30px;
+            color: var(--green);
+            font-size: 18px;
+            cursor: pointer;
+        }
+    }
+}
