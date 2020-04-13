@@ -1,4 +1,5 @@
 # Covid-19 (Corona virus ) 
+https://5e94bca5403c9b8cb65937a7--compassionate-lalande-dc304d.netlify.com/
 
 Simple illustrative website about Corona virus.
 
@@ -20,6 +21,7 @@ npm run start
 * What to do 
 * Live Reports
 * Auto scroll
+* Responsive Design
 
 ## License
 MIT License
