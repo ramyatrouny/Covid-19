@@ -1,5 +1,5 @@
 # Covid-19 (Corona virus ) 
-covid19-illustration.netlify.com
+https://covid19-illustration.netlify.com
 
 Simple illustrative website about Corona virus.
 
