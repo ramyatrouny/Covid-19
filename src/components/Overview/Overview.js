@@ -11,11 +11,10 @@ export default function Overview(props) {
                 <h1>Quarantine at home <br/> to stop Corona virus</h1>
                 <h4>There is no specific medicine to prevent or treat coronavirus <br/> disease (COVID-19). People may need supportive care to</h4>
                 <input type="button" value="Let Us Help"/>
-            
             </div>
 
             <div className="illustration">
-                <img src={GirlSitting} alt="" srcset=""/>
+                <img src={GirlSitting} alt="" />
             </div>
 
         </section>

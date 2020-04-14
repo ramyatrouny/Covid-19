@@ -6,7 +6,7 @@ import Logo from '../../images/Logo.png'
 export default function Footer() {
     return (
         <footer>
-            <img src={Logo} alt="" srcset="" />
+            <img src={Logo} alt=""  />
 
             <ul>
                 <li>

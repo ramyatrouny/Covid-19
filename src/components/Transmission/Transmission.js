@@ -4,9 +4,6 @@ import './Transmission.scss';
 import airTransmission from '../../images/Transmission/airTransmission.png';
 import humanContact from '../../images/Transmission/humanContact.png';
 import containedObjects from '../../images/Transmission/containedObjects.png';
-import { useRef } from 'react';
-
-
 
 export default function Transmission(props) {
 
@@ -18,17 +15,17 @@ export default function Transmission(props) {
 
             <div className="coronaTransmissionCards">
                 <div className="transmissionCard">
-                    <img src={airTransmission} alt="" srcset="" />
+                    <img src={airTransmission} alt=""  />
                     <h3>Air Transmission</h3>
                     <p>Objectively evolve tactical expertise before extensible initiatives. Efficiently simplify</p>
                 </div>
                 <div className="transmissionCard">
-                    <img src={humanContact} alt="" srcset="" />
+                    <img src={humanContact} alt=""  />
                     <h3>Human Contact</h3>
                     <p>Washing your hands is one of the simplest ways you can protect yourself</p>
                 </div>
                 <div className="transmissionCard">
-                    <img src={containedObjects} alt="" srcset="" />
+                    <img src={containedObjects} alt=""  />
                     <h3>Contained Objects</h3>
                     <p>Use the tissue while sneezing,In this way, you can protect your droplets.</p>
                 </div>

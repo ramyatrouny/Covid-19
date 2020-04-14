@@ -6,7 +6,7 @@ export default function AboutUs(props) {
     return (
         <section className="coronaVirusDefinition" ref={props.setRef}>
             <div className="illustration">
-                <img src={coronaVirus} alt="" srcset="" />
+                <img src={coronaVirus} alt=""  />
             </div>
 
             <div className="definition">
